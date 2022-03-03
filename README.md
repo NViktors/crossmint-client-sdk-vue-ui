@@ -56,3 +56,28 @@ Finally, make sure you replace the following values in the CrossmintPayButton co
 - `<DESCRIPTION_OF_YOUR_COLLECTION>`: Example: "The most fun community of 999 generative art monkeys in Solana"
 - `<OPT_URL_TO_PHOTO_COVER>`: Full URL to an image for your collection. Example: "https://i.picsum.photos/id/542/200/300.jpg?hmac=qD8M4ejDPlEc69pGT21BzB7CDiWOcElb_Ke7V8POjm8"
 - `<YOUR_CLIENT_ID>`: This is the clientId you received after filling in [the onboarding form](https://www.crossmint.io/developers/)
+
+## 3. Components
+
+### `CrossmintPayButton` _required_
+
+CrossmintPayButton is a button component that is used to trigger the opening of the CrossMint popup and modal overlay.
+
+| propName              | default     | required | description                                                                                  |
+| --------------------- | ----------- | -------- | -------------------------------------------------------------------------------------------- |
+| clientId              | `undefined` | `true`   | Your client integration identifier                                                           |
+| collectionTitle       | `undefined` | `true`   | This will be shown to the user during the checkout process. Max length: 120                  |
+| collectionDescription | `undefined` | `false`  | This will be shown to the user during the checkout process. Max length: 24                   |
+| collectionPhoto       | `undefined` | `false`  | This will be shown to the user during the checkout process. Preferred resolution: 200x200 px |
+| theme                 | `dark`      | `false`  | Use this to specify one of our default themes. Can be `light`, `dark`                        |
+| ...props              | `undefined` | `false`  | All valid html button props can be added to the button                                       |
+
+### `CrossmintStatusButton`
+
+DESCRIPTION TBD
+
+| propName | default     | required | description                                                           |
+| -------- | ----------- | -------- | --------------------------------------------------------------------- |
+| clientId | `undefined` | `true`   | Your client integration identifier                                    |
+| theme    | `dark`      | `false`  | Use this to specify one of our default themes. Can be `light`, `dark` |
+| ...props | `undefined` | `false`  | All valid html button props can be added to the button                |
