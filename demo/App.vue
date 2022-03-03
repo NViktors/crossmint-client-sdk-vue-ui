@@ -16,7 +16,7 @@
       <p>Button with dark theme</p>
 
       <CrossmintStatusButton
-        :theme="themeDark"
+        :theme="themeLight"
         client-id="xxxxxxxx-xxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
       />
     </div>
@@ -28,7 +28,7 @@
   import CrossmintPayButton from '../src/components/CrossmintPayButton.vue';
   import CrossmintStatusButton from '../src/components/CrossmintStatusButton.vue';
 
-  const themeDark = ThemeVariant.DARK;
+  const themeLight = ThemeVariant.LIGHT;
 </script>
 
 <style lang="scss">
