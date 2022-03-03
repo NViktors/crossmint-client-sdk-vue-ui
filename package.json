@@ -1,6 +1,6 @@
 {
   "name": "crossmint-client-sdk-vue-ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Crossmint.io client SDK for Vue 3",
   "author": "Viktors Ņikiforovs",
   "license": "MIT",
