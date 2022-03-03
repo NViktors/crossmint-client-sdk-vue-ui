@@ -21,12 +21,13 @@
       type: String,
       required: true,
     },
-    collectionTitle: {
-      type: String,
-      required: true,
-    },
 
     // Optional props
+    collectionTitle: {
+      type: String,
+      required: false,
+      default: undefined,
+    },
     collectionDescription: {
       type: String,
       default: undefined,

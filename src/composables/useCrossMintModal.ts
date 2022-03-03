@@ -24,7 +24,7 @@ type MintQueryParams = {
 };
 
 interface IConnectProps {
-  collectionTitle: string;
+  collectionTitle?: string;
   collectionDescription?: string;
   collectionPhoto?: string;
   mintTo?: string;
