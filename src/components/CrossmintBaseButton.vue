@@ -15,7 +15,7 @@
   const props = defineProps({
     theme: {
       type: String as PropType<ThemeVariant>,
-      default: ThemeVariant.LIGHT,
+      default: ThemeVariant.DARK,
     },
   });
 
