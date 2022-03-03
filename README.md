@@ -57,7 +57,9 @@ Finally, make sure you replace the following values in the CrossmintPayButton co
 - `<OPT_URL_TO_PHOTO_COVER>`: Full URL to an image for your collection. Example: "https://i.picsum.photos/id/542/200/300.jpg?hmac=qD8M4ejDPlEc69pGT21BzB7CDiWOcElb_Ke7V8POjm8"
 - `<YOUR_CLIENT_ID>`: This is the clientId you received after filling in [the onboarding form](https://www.crossmint.io/developers/)
 
-## 3. Components
+---
+
+## Components
 
 ### `CrossmintPayButton` _required_
 
@@ -81,3 +83,32 @@ CrossmintStatusButton is a button component that is used to display Crossmint on
 | clientId | `undefined` | `true`   | Your client integration identifier                                    |
 | theme    | `dark`      | `false`  | Use this to specify one of our default themes. Can be `light`, `dark` |
 | ...props | `undefined` | `false`  | All valid html button props can be added to the button                |
+
+## Build from Source
+
+1. Clone the project:
+
+```shell
+git clone https://github.com/NViktors/crossmint-client-sdk-vue-ui.git
+```
+
+2. Install dependencies:
+
+```shell
+cd crossmint-client-sdk-vue-ui
+yarn install
+```
+
+3. Build all packages:
+
+```shell
+yarn build
+```
+
+4. Run demo locally for preview:
+
+```shell
+yarn demo
+```
+
+TODO: Tests..?
