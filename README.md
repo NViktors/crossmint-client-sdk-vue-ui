@@ -65,24 +65,24 @@ Finally, make sure you replace the following values in the CrossmintPayButton co
 
 CrossmintPayButton is a button component that is used to trigger the opening of the CrossMint popup and modal overlay.
 
-| propName              | default     | required | description                                                                                  |
-| --------------------- | ----------- | -------- | -------------------------------------------------------------------------------------------- |
-| clientId              | `undefined` | `true`   | Your client integration identifier                                                           |
-| collectionTitle       | `undefined` | `false`  | This will be shown to the user during the checkout process. Max length: 120                  |
-| collectionDescription | `undefined` | `false`  | This will be shown to the user during the checkout process. Max length: 24                   |
-| collectionPhoto       | `undefined` | `false`  | This will be shown to the user during the checkout process. Preferred resolution: 200x200 px |
-| theme                 | `dark`      | `false`  | Use this to specify one of our default themes. Can be `light`, `dark`                        |
-| ...props              | `undefined` | `false`  | All valid html button props can be added to the button                                       |
+| propName               | default     | required | description                                                                                  |
+| ---------------------- | ----------- | -------- | -------------------------------------------------------------------------------------------- |
+| client-id              | `undefined` | `true`   | Your client integration identifier                                                           |
+| collection-title       | `undefined` | `false`  | This will be shown to the user during the checkout process. Max length: 120                  |
+| collection-description | `undefined` | `false`  | This will be shown to the user during the checkout process. Max length: 24                   |
+| collection-photo       | `undefined` | `false`  | This will be shown to the user during the checkout process. Preferred resolution: 200x200 px |
+| theme                  | `dark`      | `false`  | Use this to specify one of our default themes. Can be `light`, `dark`                        |
+| ...props               | `undefined` | `false`  | All valid html button props can be added to the button                                       |
 
 ### `CrossmintStatusButton`
 
 CrossmintStatusButton is a button component that is used to display Crossmint onboarding status. Normally shouldn't be visible to page visitors.
 
-| propName | default     | required | description                                                           |
-| -------- | ----------- | -------- | --------------------------------------------------------------------- |
-| clientId | `undefined` | `true`   | Your client integration identifier                                    |
-| theme    | `dark`      | `false`  | Use this to specify one of our default themes. Can be `light`, `dark` |
-| ...props | `undefined` | `false`  | All valid html button props can be added to the button                |
+| propName  | default     | required | description                                                           |
+| --------- | ----------- | -------- | --------------------------------------------------------------------- |
+| client-id | `undefined` | `true`   | Your client integration identifier                                    |
+| theme     | `dark`      | `false`  | Use this to specify one of our default themes. Can be `light`, `dark` |
+| ...props  | `undefined` | `false`  | All valid html button props can be added to the button                |
 
 ## Build from Source
 
